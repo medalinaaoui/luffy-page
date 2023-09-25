@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="registration form for attendees" />
+    <meta name="keywords" content="event,registration, attendees" />
+    <meta name="author" content="Mohamed Ali Naaoui" />
+    <link rel="stylesheet" href="Luffy.css" />
+    <title>Luffy</title>
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title"><span>Monkey D. Luffy</span></h1>
+        <p><span>The Epic Coolness of an unstoppable Spirit!</span></p>
+      </header>
+      <figure class="img-div" id="img-div">
+        <img
+          src="./maxresdefault.jpg"
+          alt="Luffy smiles"
+          id="image"
+          class="img-block"
+        />
+        <figcaption id="img-caption">
+          The Infectious Smile of Luffy: Spreading Joy Across the Seas!
+        </figcaption>
+      </figure>
+
+      <section id="tribute-info">
+        <h3>Luffy's life timeline:</h3>
+        <ul>
+          <li>
+            Early Childhood: Luffy was born in Foosha Village, Dawn Island. At
+            the age of seven, he was inspired by the pirate Red-Haired Shanks
+            and developed his dream of becoming the Pirate King.
+          </li>
+          <li>
+            Encounter with Shanks: Luffy accidentally ate the Gomu Gomu no Mi, a
+            Devil Fruit that granted him rubber powers but made him unable to
+            swim. He formed a strong bond with Shanks and his crew during his
+            time with them.
+          </li>
+          <li>
+            Sabo's Disappearance: Luffy's close friend, Sabo, mysteriously
+            vanished, leaving a lasting impact on him and his determination to
+            achieve his dream.
+          </li>
+          <li>
+            Setting Sail: At the age of seventeen, Luffy sets off on his journey
+            as a pirate, forming the Straw Hat Pirates crew and wearing the
+            iconic straw hat given to him by Shanks.
+          </li>
+          <li>
+            Grand Line Adventure: Luffy and his crew navigate the treacherous
+            Grand Line, facing formidable enemies like the Warlords of the Sea,
+            the Navy, and other powerful pirates.
+          </li>
+          <li>
+            Enies Lobby: Luffy leads his crew in a fierce battle against the
+            World Government to rescue their crewmate Nico Robin, showing his
+            unwavering loyalty to his friends.
+          </li>
+          <li>
+            Two-Year Time Skip: Luffy and his crew disband for two years to
+            train and become stronger, with each member pursuing their own
+            personal growth.
+          </li>
+          <li>
+            Return and Confrontation: Luffy reunites with his crew, now more
+            powerful, and challenges the world again, clashing with powerful
+            foes like the Yonko and the Marines.
+          </li>
+          <li>
+            Whole Cake Island: Luffy faces off against Charlotte Linlin (Big
+            Mom) on Whole Cake Island to rescue his crewmate Sanji, showcasing
+            his determination and willpower.
+          </li>
+          <li>
+            Wano Country: Luffy enters Wano Country to take down Kaido and free
+            the nation from his oppressive rule, leading a massive alliance to
+            confront the Yonko.
+          </li>
+          <li>
+            Path to Pirate King: Luffy continues his journey towards Raftel, the
+            final island of the Grand Line, where the One Piece, the ultimate
+            treasure, is said to be hidden, as he strives to become the Pirate
+            King.
+          </li>
+        </ul>
+
+        <p>
+          Discover the awe-inspiring world of Luffy, an extraordinary character
+          whose remarkable journey awaits you. Take a moment to delve into the
+          captivating tales of his life by exploring his
+          <a
+            href="https://en.wikipedia.org/wiki/Monkey_D._Luffy"
+            target="_blank"
+            id="tribute-link"
+            >Wikipedia entry</a
+          >, and let the magic of "One Piece" transport you to a realm of
+          thrilling adventures and heartfelt emotions if you haven't already.
+          Embrace the spirit of this incredible protagonist and embark on a
+          voyage that will leave an indelible mark on your heart.
+        </p>
+      </section>
+    </main>
+
+    <script>
+      let title = document.getElementById("title");
+      title.addEventListener("click", () => {
+        let thatThing = document.querySelector(".arrow");
+        thatThing.style.transform = "rotateX(0deg)";
+      });
+    </script>
+  </body>
+</html>
